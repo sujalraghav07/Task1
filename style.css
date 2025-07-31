@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("images/bg.jpg");   /* 👈 Yeh line image ka path hai */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  text-align: center;
+  background: rgb(232, 223, 223);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #998f8f;
+  width: 90%;
+  max-width: 400px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(18, 85, 107);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
